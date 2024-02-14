@@ -4,16 +4,19 @@
 }
 
 .bg-gradient-primary {
-    background: linear-gradient( #6f31c6, #3914b2);
+    background: linear-gradient( #662db6, #3914b2);
     color: white; 
     padding: 20px; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5%;
 }
 
 .circulo{
-    width: 100px;
-    height: 100px; 
+    width: 125px;
+    height: 125px; 
     border-radius: 50%;
-    background: linear-gradient(#56238d,#4B23CA);
+    background: linear-gradient(#451a73,#3f1fa8);
     display: flex;
     justify-content: center;
     align-items: center;
