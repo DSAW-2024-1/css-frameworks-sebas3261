@@ -37,6 +37,12 @@ h6{
 
 .color5{
     background-color: #303B59;
+    margin-top: 10%;
+}
+
+.color5:hover{
+    cursor: pointer;
+    background-color: #5E3FFB;
 }
 
 @media screen and (min-width: 768px) {
@@ -64,10 +70,6 @@ h6{
     .color,
     .blanco {
         flex: 1;
-    }
-
-    .color5{
-        margin-top: 10%;
     }
 
     .color{
