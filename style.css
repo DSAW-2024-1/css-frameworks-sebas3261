@@ -62,3 +62,43 @@ h6{
 .title{
     font-size: 100%;
 }
+
+.negro{
+    color: #B2ACB4;
+}
+
+span{
+    font-weight: 600;
+    color: #3D3A49;
+}
+
+@media screen and (min-width: 768px) {
+    body, html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .todo {
+        display: flex;
+        justify-content: center;
+        box-shadow: 0px 4px 8px rgba(0, 0, 2, 0.5);
+        border-radius: 20px;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%; /* Para asegurar que los divs ocupen todo el ancho del contenedor */
+    }
+    
+    .morado,
+    .blanco {
+        flex: 1; /* Ambos divs ocupan el mismo espacio disponible */
+    }
+
+    .morado{
+        border-radius: 20px;
+    }
+}
