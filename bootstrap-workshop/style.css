@@ -24,6 +24,7 @@
 .boton{
     background-color: #303B59;
     color: white;
+    margin-top: 15%;
 }
 
 .boton:hover{
