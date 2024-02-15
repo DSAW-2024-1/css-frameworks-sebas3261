@@ -28,6 +28,7 @@
 
 .boton:hover{
     cursor: pointer;
+    background-color: #5E3FFB;
 }
 
 .color1{
