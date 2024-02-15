@@ -106,4 +106,8 @@ span{
     .morado{
         border-radius: 20px;
     }
+
+    .boton{
+        margin-top: 15%;
+    }
 }

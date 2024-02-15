@@ -24,7 +24,6 @@
 .boton{
     background-color: #303B59;
     color: white;
-    margin-top: 15%;
 }
 
 .boton:hover{
@@ -106,5 +105,9 @@ span{
 
     .morado{
         border-radius: 20px;
+    }
+
+    .boton{
+        margin-top: 15%;
     }
 }
